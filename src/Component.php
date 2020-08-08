@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace PoP\TagsWP;
+namespace PoPSchema\TagsWP;
 
 use PoP\Root\Component\AbstractComponent;
 use PoP\Root\Component\YAMLServicesTrait;
@@ -18,8 +18,8 @@ class Component extends AbstractComponent
     public static function getDependedComponentClasses(): array
     {
         return [
-            \PoP\Tags\Component::class,
-            \PoP\TaxonomiesWP\Component::class,
+            \PoPSchema\Tags\Component::class,
+            \PoPSchema\TaxonomiesWP\Component::class,
         ];
     }
 

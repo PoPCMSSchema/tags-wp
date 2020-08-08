@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace PoP\TagsWP\TypeAPIs;
+namespace PoPSchema\TagsWP\TypeAPIs;
 
 use WP_Taxonomy;
-use PoP\Tags\TypeAPIs\TagTypeAPIInterface;
-use PoP\TaxonomiesWP\TypeAPIs\TaxonomyTypeAPI;
+use PoPSchema\Tags\TypeAPIs\TagTypeAPIInterface;
+use PoPSchema\TaxonomiesWP\TypeAPIs\TaxonomyTypeAPI;
 
 /**
  * Methods to interact with the Type, to be implemented by the underlying CMS
