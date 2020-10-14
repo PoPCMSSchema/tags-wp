@@ -1,4 +1,4 @@
 services:
-    tag_type_api:
+    PoPSchema\Tags\TypeAPIs\TagTypeAPIInterface:
         class: \PoPSchema\TagsWP\TypeAPIs\TagTypeAPI
         public: true
