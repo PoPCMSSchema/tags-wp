@@ -18,7 +18,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": "~7.4",
+        "php": "^7.4|^8.0",
         "pop-schema/tags": "dev-master",
         "pop-schema/taxonomies-wp": "dev-master",
         "pop-schema/migrate-tags-wp": "dev-master"
