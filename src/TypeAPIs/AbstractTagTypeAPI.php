@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace PoPSchema\TagsWP\TypeAPIs;
+namespace PoPCMSSchema\TagsWP\TypeAPIs;
 
 use PoP\Root\App;
-use PoPSchema\SchemaCommons\CMS\CMSHelperServiceInterface;
+use PoPCMSSchema\SchemaCommons\CMS\CMSHelperServiceInterface;
 use PoPSchema\SchemaCommons\Constants\QueryOptions;
-use PoPSchema\SchemaCommons\DataLoading\ReturnTypes;
-use PoPSchema\Tags\TypeAPIs\TagTypeAPIInterface;
-use PoPSchema\TaxonomiesWP\TypeAPIs\TaxonomyTypeAPI;
+use PoPCMSSchema\SchemaCommons\DataLoading\ReturnTypes;
+use PoPCMSSchema\Tags\TypeAPIs\TagTypeAPIInterface;
+use PoPCMSSchema\TaxonomiesWP\TypeAPIs\TaxonomyTypeAPI;
 use WP_Taxonomy;
 
 /**
